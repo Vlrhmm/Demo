@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.className{
+  
+background-color: var(--color-red-50);
+}
+
+:root{
+  background-color: var(--color-red-50);
+}
+
+body{
+  background-color: var(--color-red-50);
+  
+}
