@@ -2,17 +2,17 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <section class="bg-[url('/src/assets/Images/bgimage.jpg')] bg-cover bg-center justify-center h-[400px] relative z-0">
+    <section class="bg-[url('/src/assets/Images/bgimage.jpg')] bg-cover bg-center justify-center h-[450px] ">
       <div
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center"
       >
-        <div class="text-center">
+        <div class="text-center pt-35">
           <h1
-            class="text-2xl font-bold text-white sm:text-xl md:text-6xl"
+            class="text-2xl font-bold text-white sm:text-xl md:text-2xl"
           >
             Kid's Event
           </h1>
-          <p class="my-4 text-xl text-white">
+          <p class="my-4 text-xl  text-white">
           Unlock creativity with endless possibilities<br />
             Exciting adventures for kids of all ages<br/>
             All work and no play makes Muna a dull girl

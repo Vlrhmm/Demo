@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { Search } from 'lucide-react'; 
+
 const Searchbar = () => {
   const [query, setQuery] = useState('');
 
@@ -12,7 +12,7 @@ const Searchbar = () => {
   return (
     <form
       onSubmit={handleSearch}
-      className="w-screen md:w-auto flex items-center border border-black-300  px-4 py-4 mt-5  shadow-sm bg-gray-300"
+      className=" lg:ml-50 lg:mr-50 flex items-center border border-black-300  px-4 py-4 mt-8 shadow-sm bg-gray-300"
     >
       <input
         type="text"
